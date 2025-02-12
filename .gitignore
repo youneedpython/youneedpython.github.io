@@ -23,3 +23,6 @@ package-lock.json
 !.vscode/tasks.json
 
 # Misc
+
+## 추가한 것
+Gemfile.lock
