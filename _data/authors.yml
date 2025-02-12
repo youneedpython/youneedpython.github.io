@@ -6,6 +6,10 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+youneedpython:
+  name: youneedpython
+  url: https://github.com/youneedpython
+
 cotes:
   name: Cotes Chung
   twitter: cotes2020
