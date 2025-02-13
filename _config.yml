@@ -29,7 +29,7 @@ description: >- # used by seo meta and the atom feed
 
 seo:
   keywords: "AI, Backend, Java, Fullstack, 인공지능, 백엔드, 자바, 풀스택"  # 검색 키워드
-  google_site_verification: "google-site-verification=7DMoBnTq-CRFseCiRSgGplC8ve7fM-UHj5b8RpZ4t6o"
+  google_site_verification: "7DMoBnTq-CRFseCiRSgGplC8ve7fM-UHj5b8RpZ4t6o"
   # bing_site_verification: "빙 웹마스터 도구에서 받은 코드"
 
 google_analytics:
