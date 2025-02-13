@@ -23,6 +23,28 @@ tagline: 즐거운 인생이었다!😊 # it will display as the subtitle
 description: >- # used by seo meta and the atom feed
   AI, 인공지능, Python, Backend, Java
 
+
+## SEO : google ################################################################################## 
+# ↓ --------------------------
+
+seo:
+  keywords: "AI, Backend, Java, Fullstack, 인공지능, 백엔드, 자바, 풀스택"  # 검색 키워드
+  google_site_verification: "google-site-verification=7DMoBnTq-CRFseCiRSgGplC8ve7fM-UHj5b8RpZ4t6o"
+  # bing_site_verification: "빙 웹마스터 도구에서 받은 코드"
+
+google_analytics:
+  pv:
+    cache: true
+
+robots:
+  - "User-agent: *"
+  - "Allow: /"
+  - "Sitemap: https://yourblog.github.io/sitemap.xml"
+
+plugins:
+  - jekyll-sitemap
+
+
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://github.com/youneedpython"
