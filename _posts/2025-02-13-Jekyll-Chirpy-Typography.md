@@ -259,13 +259,19 @@ Moon
 <!-- 클릭하면 새 창(탭)에서 열림 -->
 [여기에 입력한 텍스트가 화면에 표시됨](URL 주소){: target="_blank"} 
 
-[GitHub](https://github.com)  
-[GitHub](https://github.com){: target="_blank"}  
+<!-- 링크 텍스트(앵커 텍스트) 추가: SEO 최적화 -->
+<!-- 마우스 올리면 보이는 텍스트: 링크 텍스트, 앵커 텍스트, 말풍선, tooltip -->
+[여기에 입력한 텍스트가 화면에 표시됨](URL 주소 "링크 텍스트 입력"){: target="_blank"} 
+
+[GitHub(현재 창에서 열림)](https://github.com)  
+[GitHub(새 창에서 열림)](https://github.com){: target="_blank"}  
+[GitHub(새 창에서 열림&말풍선)](https://github.com "클릭하면 깃허브로 이동합니다."){: target="_blank"} 
 ```
 
 **[결과]**  :  
 [GitHub(현재 창에서 열림)](https://github.com)  
 [GitHub(새 창에서 열림)](https://github.com){: target="_blank"}  
+[GitHub(새 창에서 열림&말풍선)](https://github.com "클릭하면 깃허브로 이동합니다."){: target="_blank"} 
 
 <br><br>
 
