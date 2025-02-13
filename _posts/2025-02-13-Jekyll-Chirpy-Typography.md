@@ -2,9 +2,9 @@
 title: "Chirpy의 다양한 텍스트와 타이포그래피 기능(마크다운, markdown)"
 description: "마크다운(markdown)을 배우자~"
 author: "youneedpython"
-date: 2025-02-13 18:47:00
+date: "2025-02-13 18:47:00 +0900" 
 categories: [Tech, Github blog]
-tags: [Jekyll, GitHub Pages, markdown, 마크다운, 블로그 글쓰기]
+tags: [Jekyll, Chirpy, GitHub blog, GitHub Pages, markdown, 마크다운, 블로그 글쓰기]
 pin: true
 math: true
 mermaid: true
@@ -28,6 +28,12 @@ Jekyll 테마 중 하나인 **Chirpy**는 다양한 텍스트와 타이포그래
 
 
 ---
+
+> **자주하는 질문**  
+**`[질문 1] 백틱은 어디에 있나요?`**    
+백틱은 키보드 좌측 상단에 있습니다.  
+**esc 키** 아래에 **~(틸드)키**에 있습니다. ~(틸드)와 함께 있는 `가 백틱입니다.  
+{: .prompt-danger }
 
 ## 1. 제목(Header) 🏷️
 
@@ -247,10 +253,10 @@ Moon
 블로그 글에서 링크를 추가하려면 아래처럼 작성한다. 🖇️
 
 ```markdown
-// 클릭하면 현재 창(탭)에서 열림
+<!-- 클릭하면 현재 창(탭)에서 열림 -->
 [여기에 입력한 텍스트가 화면에 표시됨](URL 주소) 
 
-// 클릭하면 새 창(탭)에서 열림
+<!-- 클릭하면 새 창(탭)에서 열림 -->
 [여기에 입력한 텍스트가 화면에 표시됨](URL 주소){: target="_blank"} 
 
 [GitHub](https://github.com)  
@@ -314,7 +320,7 @@ Here is the `/path/to/the/file.extend`{: .filepath}.
 백틱 세 개(```)로 감싸서 여러 줄 코드를 표시할 수 있다. 📜
 
 ````
-// 연속 백틱 3개를 시작과 종료에 입력
+<!-- 연속 백틱 3개를 시작과 종료에 입력 -->
 ```언어이름
 내용
 ```
@@ -406,6 +412,8 @@ _Full screen width and center alignment_
 
 ```
 
+**[결과]**  :  
+
 ### Default (with caption)
 ![노을](/assets/img/avatar.png){: width="1024" }
 _Full screen width and center alignment_
@@ -442,10 +450,34 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
 이렇게 줄바꿈이 된다.
 ```
 
+**[결과]**  :  
+
 - 공백없이 줄바꿈(엔터)하면
 한 줄로 표현된다.
 - 공백 두 개를 넣으면  
 이렇게 줄바꿈이 된다.
+<br><br>  
+
+---
+
+## 17. 주석(comment)
+
+주석은 단축키 사용하면 편합니다.  
+작업하는 IDE나 Editor의 단축키 사용하면 됩니다.  
+일반적인 주석 단축키는 **`ctrl + /`** 입니다.
+
+```
+주석은 화면에 표시되지 않습니다.
+<!-- 주석입니다. 화면에 표시되지 않아요! -->
+보이지 않지요?
+```
+
+**[결과]**  :  
+
+주석은 화면에 표시되지 않습니다.
+<!-- 주석입니다. 화면에 표시되지 않아요! -->
+보이지 않지요?
+
 <br><br>  
 
 ---
