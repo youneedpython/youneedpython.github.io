@@ -1,6 +1,6 @@
 ---
-title: "Jekyll 블로그 만들기"
-description: "GitHub Pages와 Jekyll을 사용하여 블로그를 구축하는 방법을 설명합니다."
+title: "블로그 개설하다"
+description: "github blog 시작"
 author: "youneedpython"
 date: 2025-02-12 14:33:00
 categories: [Tech, Blog]
@@ -11,4 +11,5 @@ mermaid: true
 ---
 
 
-# 블로그 개설
+# 블로그 개설하다.
+흔적을 남겨보자! 👣😊 
