@@ -15,3 +15,10 @@
 .custom-table th {
   background-color: #f3f3f3; /* 헤더는 회색 배경 유지 */
 }
+
+table th {
+  display: table-cell !important; /* 컬럼명 강제 표시 */
+  border-top: 1px solid #ccc;
+  font-weight: bold;
+  background-color: #f3f3f3; /* 필요하면 헤더 배경색 추가 */
+}

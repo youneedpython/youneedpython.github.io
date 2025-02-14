@@ -8,13 +8,14 @@ tags: [Git, GitHub, commit convention, 커밋, 커밋 문법, 커밋 컨벤션, 
 pin: true
 math: true
 mermaid: true
-image:
-  path: /assets/img/2025-02-14/commitlint.png
-  width: auto ## 원래 크기 유지
-  height: auto ## 비율 유지
-  alt: commitlint
+# image:
+#   path: /assets/img/2025-02-14/commitlint.png
+#   width: auto ## 원래 크기 유지
+#   height: auto ## 비율 유지
+#   alt: commitlint
 ---
 
+<br><br>
 
 # Git Commit Convention
 - 깔끔한 커밋 메시지를 위한 가이드
@@ -30,8 +31,11 @@ Git을 사용하다 보면 협업을 위해 **`가독성이 좋은 커밋 메시
 - [commitlint config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional#commitlintconfig-conventional){: target="_blank" } 
 {: .prompt-info}
 
+<br>
 
 ---
+
+<br>
 
 ## 1. Git 커밋 컨벤션이란?
 

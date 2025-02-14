@@ -13,6 +13,8 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices
 ---
 
+<br><br>
+
 Jekyll 테마 중 하나인 **Chirpy**는 다양한 텍스트와 타이포그래피 기능을 제공한다.   
 이 글은 **Chirpy 웹 페이지** 내용을 참고하여 정리하였으며, 부족한 내용은 추가하여 작성하였다.  
 
