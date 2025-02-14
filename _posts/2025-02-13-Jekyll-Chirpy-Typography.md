@@ -3,7 +3,7 @@ title: "Chirpy의 다양한 텍스트와 타이포그래피 기능(마크다운,
 description: "마크다운(markdown)을 배우자~"
 author: "youneedpython"
 date: "2025-02-13 18:47:00 +0900" 
-categories: [Tech, Github blog]
+categories: [Github blog, markdown]
 tags: [Jekyll, Chirpy, GitHub blog, GitHub Pages, markdown, 마크다운, 블로그 글쓰기]
 pin: true
 math: true
@@ -14,18 +14,20 @@ image:
 ---
 
 Jekyll 테마 중 하나인 **Chirpy**는 다양한 텍스트와 타이포그래피 기능을 제공한다.   
-이 글은 **Chirpy 웹 페이지** 내용을 참고하여 정리하였으며, 설명이 부족한 부분은 추가하였다.  
+이 글은 **Chirpy 웹 페이지** 내용을 참고하여 정리하였으며, 부족한 내용은 추가하여 작성하였다.  
 
-**Chirpy**로 만든 블로그에서 글을 작성하기 위해 만든 파일의 확장자가 .md로 마크다운 파일이다.  
-그래서 마크다운 문법을 이해해야 글을 작성할 수 있다.
-
-이 글은 마크다운 문법을 초보자도 쉽게 따라할 수 있도록 정리했다.
-
-**Chirpy** 코드와 웹 사이트는 아래 링크를 클릭하면 확인 가능하다.
+> **Chirpy** 코드와 웹 사이트는 아래 링크를 클릭하면 확인 가능하다.  
 - code : [github](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_posts/2019-08-08-text-and-typography.md?plain=1){:target="_blank"}
 - web : [https://chirpy.cotes.page/](https://chirpy.cotes.page/posts/text-and-typography){:target="_blank"}  
+{: .prompt-info}
 
+<br>
 
+**Chirpy**로 만든 블로그에서 글을 작성하기 위해 만든 파일의 확장자가 **`.md`**로, **`마크다운`** 파일이다.  
+그래서 **`마크다운`** 문법을 이해해야 글을 작성할 수 있다.  
+
+이 글은 **`마크다운`** 문법을 초보자도 쉽게 따라할 수 있도록 정리했다.  
+<br><br>
 
 ---
 
