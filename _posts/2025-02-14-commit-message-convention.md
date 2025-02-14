@@ -23,7 +23,7 @@ image:
 
 Git을 사용하다 보면 협업을 위해 **`가독성이 좋은 커밋 메시지`**를 작성하는 것이 중요합니다. 이때 많은 개발자들은 **`Git Commit Convention(깃 커밋 컨벤션)`** 을 따르는데, 이는 커밋 메시지를 일정한 형식으로 유지하기 위한 규칙입니다.
 
-이 글에서는 **@commitlint/config-conventional** 을 기반으로 **깃 커밋 컨벤션 규칙(git commit convention rules)**을 소개합니다.
+이 글에서는 **`@commitlint/config-conventional`** 을 기반으로 **`깃 커밋 컨벤션 규칙(git commit convention rules)`**을 소개합니다.
 
 > [참고 사이트]
 - [commitlint rules](https://commitlint.js.org/reference/rules.html){: target="_blank" }

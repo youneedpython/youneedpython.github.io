@@ -4,7 +4,6 @@ permalink: /robots.txt
 ---
 
 User-agent: *
+Disallow:
 
-Disallow: /norobots/
-
-Sitemap: {{ '/sitemap.xml' | absolute_url }}
+Sitemap: https://youneedpython.github.io/sitemap.xml
