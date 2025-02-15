@@ -70,7 +70,7 @@ Utterances가 연결될 **GitHub 저장소(Repository)를 선택**하는 방법�
   - **Issues 기능이 활성화되어 있는지** 확인합니다.
 
     > Fork된 저장소는 Issues 메뉴가 비활성화 되어 있습니다.  
-    >   Fork 연결 끊는 방법은 [여기](_posts\2025-02-15-github-fork-disconnect.md){: target="_blak" }를 클릭하여 확인  
+    >   Fork 연결 끊는 방법은 [여기](https://youneedpython.github.io/posts/github-fork-disconnect/){: target="_blank" }를 클릭하여 확인  
     {:.prompt-info}
 
 
@@ -96,7 +96,7 @@ Utterances가 연결될 **GitHub 저장소(Repository)를 선택**하는 방법�
 ```
 
 **`_layouts/post.html`** 파일 하단에 붙여 넣기기
-![Utterances 스크립트 추가](<../assets/img/2025-02-15/add script tag.png>)
+![Utterances 스크립트 추가](/assets/img/2025-02-15/add script tag.png)
 
 #### 주요 설정 설명
 - `repo="YOUR_GITHUB_USERNAME/YOUR_REPO_NAME"`  
