@@ -8,14 +8,11 @@ tags: [Git, GitHub, leave fork, 포크 연결 끊기, fork repository 연결 끊
 pin: true
 math: true
 mermaid: true
-# image:
-#   path: /assets/img/2025-02-15/utterances.png
-#   alt: utterances comments image
 ---
 
 <br><br>
 
-![Utterances Comment](../assets/img/2025-02-15/utterances.png)
+![Utterances Comment](/assets/img/2025-02-15/utterances.png)
 
 GitHub Pages를 사용하여 블로그를 운영하는 경우, 별도의 댓글 기능능을 추가하는 것이 고민될 수 있습니다. 일반적인 블로그 플랫폼(예: WordPress, Tistory)과 달리 GitHub Pages는 기본적으로 댓글 기능을 제공하지 않기 때문입니다.
 
