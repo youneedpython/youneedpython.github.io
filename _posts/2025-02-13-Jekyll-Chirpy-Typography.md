@@ -1,5 +1,5 @@
 ---
-title: "Chirpy의 다양한 텍스트와 타이포그래피 기능(마크다운, markdown)"
+title: "[마크다운] Chirpy의 다양한 텍스트와 타이포그래피 기능"
 description: "마크다운(markdown)을 배우자~"
 author: "youneedpython"
 date: "2025-02-13 18:47:00 +0900" 
