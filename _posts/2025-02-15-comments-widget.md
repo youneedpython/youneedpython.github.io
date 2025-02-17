@@ -4,7 +4,7 @@ description: "쉽고 간단하게 깃허브 블로그에 댓글 기능 연동하
 author: "youneedpython"
 date: "2025-02-15 12:15:00 +0900" 
 categories: [Github blog, comments widget]
-tags: [Git, GitHub, leave fork, 포크 연결 끊기, fork repository 연결 끊기기]
+tags: [Git, GitHub, comments widget, 깃 블로그, 댓글 기능 추가, Utterances widget, Utterances, 댓글 연동]
 pin: true
 math: true
 mermaid: true

@@ -1,3 +1,12 @@
+
+<br/><br/>
+## [my blog: https://youneedpython.github.io/](https://youneedpython.github.io/)
+<br/>
+
+> 블로그 테마: Chirpy Jekyll Theme
+
+<br/><br/>
+
 <!-- markdownlint-disable-next-line -->
 <div align="center">
 
@@ -15,6 +24,8 @@
   [**Live Demo** →][demo]
 
   [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+  <!-- <img src="https://chirpy-img.netlify.app/commons/devices-mockup.png" alt="Devices Mockup" width="50%"> -->
+
 
 </div>
 
@@ -42,21 +53,6 @@
 ## Documentation
 
 To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
-
-## Contributing
-
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
-
-## Credits
-
-### Contributors
-
-Thanks to [all the contributors][contributors] involved in the development of the project!
-
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
 
 ### Third-Party Assets
 
