@@ -15,7 +15,7 @@ mermaid: true
 ![alt text](../assets/img/2025-02-19/notification.png)
 
 > You unlocked new Achievements with private contributions! Show them off by including private contributions in your Profile in settings.  
-> 특정 활동을 수행해서 **`새로운 배지(Badge)`** 를 획득했다. 프로필 설정을 하면, 비공개 저장소도 기여도에 반영할 수 있다.
+> 비공개 기여로 새로운 업적에 맞는 배지를 받을 조건이 충족되었다. 프로필 설정에서 비공개 기여를 포함하면, 새로운 업적을 프로필에 표시할 수 있습니다.
 <br/>
 
 - [참고]
