@@ -27,7 +27,7 @@ Apache는 공식적으로 Windows용 바이너리를 제공하지 않으므로, 
 2. `httpd-2.4.63-250207-win64-VS17.zip` 파일을 다운로드한 후 **압축 해제**
 3. `C:\Apache24` 폴더를 생성한 후, 압축을 푼 파일을 이 폴더로 이동
 4. `C:\Apache24\bin\httpd.exe` 파일이 Apache 실행 파일입니다.  
-![alt text](../assets/img/2025-02-23/apache-bin-folder.png){: width="218" }
+- ![alt text](../assets/img/2025-02-23/apache-bin-folder.png){: width="256" }
 
 ---
 
@@ -48,13 +48,13 @@ httpd -k install
 httpd -k start
 ```  
 * 윈도우키 누르고, cmd 입력  
-![alt text](../assets/img/2025-02-23/apache-cmd-run.png){: width="218" }    
+![alt text](../assets/img/2025-02-23/apache-cmd-run.png)    
 * 명령어 차례로 입력  
-![alt text](../assets/img/2025-02-23/apache-install.png){: width="218" }    
+![alt text](../assets/img/2025-02-23/apache-install.png)    
 
 
 👉 실행이 성공하면 `http://localhost/` 접속 시 **Apache 기본 페이지**가 보여야 합니다.  
-![alt text](../assets/img/2025-02-23/apache-web.png)
+- ![alt text](../assets/img/2025-02-23/apache-web.png)  
 
 👉 중지하려면:
 ```bash
@@ -71,23 +71,23 @@ httpd -k uninstall
 기본적으로 **Apache는 80번 포트**를 사용하지만, Spring Boot가 8080을 쓰므로 필요하면 포트를 변경할 수 있습니다.
 
 1. `C:\Apache24\conf\httpd.conf` 파일을 열기  
-![alt text](../assets/img/2025-02-23/apache-conf-httpd.png)  
+- ![alt text](../assets/img/2025-02-23/apache-conf-httpd.png)  
 
 2. `Listen 80`을 찾고, `Listen 8081` (또는 원하는 포트)로 변경  
-![alt text](../assets/img/2025-02-23/apache-httpd-setting-listen.png)  
+- ![alt text](../assets/img/2025-02-23/apache-httpd-setting-listen.png)  
 
 3. `#ServerName www.example.com:80`이 주석처리 되어 있음  
 `ServerName localhost:8081`으로 변경 (원하는 DNS, IP로 변경)  
-![alt text](../assets/img/2025-02-23/apache-httpd-setting-servername.png)  
+- ![alt text](../assets/img/2025-02-23/apache-httpd-setting-servername.png)  
 
 4. Apache 재시작:
    ```bash
    httpd -k restart
    ```  
-   ![alt text](../assets/img/2025-02-23/apache-cmd-restart.png)
+- ![alt text](../assets/img/2025-02-23/apache-cmd-restart.png)
 
 5. `http://localhost:8081/`로 접속하여 확인  
-![alt text](../assets/img/2025-02-23/apache-web-after-change-port.png)
+- ![alt text](../assets/img/2025-02-23/apache-web-after-change-port.png)
 
 
 ## 🛠 **4. PHP 설치 및 Apache 연동**
@@ -99,23 +99,23 @@ Apache만 설치하면 PHP가 실행되지 않으므로, PHP도 추가해야 합
 
 ### ✅ **설치 방법**  
 1. **Thread Safe (TS) 버전**의 `zip` 파일 다운로드  
-![alt text](../assets/img/2025-02-23/php-download.png)  
+   - ![alt text](../assets/img/2025-02-23/php-download.png)  
 
 2. 압축 해제 후 `C:\php` 폴더에 이동  
-![alt text](../assets/img/2025-02-23/php-folder-unzip.png)  
+- ![alt text](../assets/img/2025-02-23/php-folder-unzip.png)  
 
 3. `C:\php\php.ini-development` 파일을 `php.ini`로 이름 변경  
 * 파일 이름 변경 전  
-![alt text](../assets/img/2025-02-23/php-ini-before-change-name.png)  
+- ![alt text](../assets/img/2025-02-23/php-ini-before-change-name.png)  
 
 * 파일 이름 변경 후  
-![alt text](../assets/img/2025-02-23/php-ini-after-change-name.png)  
+- ![alt text](../assets/img/2025-02-23/php-ini-after-change-name.png)  
 
 4. `C:\php` 폴더를 환경 변수에 추가
 
 ### ✅ **Apache와 PHP 연동**
 1. `C:\Apache24\conf\httpd.conf` 파일을 열기  
-![alt text](../assets/img/2025-02-23/apache-httpd-setting-php.png)  
+- ![alt text](../assets/img/2025-02-23/apache-httpd-setting-php.png)  
 
 2. 아래 내용을 추가:
    ```conf
@@ -123,7 +123,7 @@ Apache만 설치하면 PHP가 실행되지 않으므로, PHP도 추가해야 합
    AddType application/x-httpd-php .php
    PHPIniDir "C:/php"
    ```  
-   ![alt text](../assets/img/2025-02-23/apache-httpd-setting-module.png)
+- ![alt text](../assets/img/2025-02-23/apache-httpd-setting-module.png)
 
 3. Apache 재시작:
    ```bash
@@ -136,10 +136,10 @@ Apache만 설치하면 PHP가 실행되지 않으므로, PHP도 추가해야 합
    phpinfo();
    ?>
    ```  
-   ![alt text](../assets/img/2025-02-23/php-index-file.png)  
+- ![alt text](../assets/img/2025-02-23/php-index-file.png)  
 
 5. 브라우저에서 `http://localhost:8081/index.php` 접속하여 PHP 정보 페이지가 나오면 성공!  
-![alt text](../assets/img/2025-02-23/php-index-web.png)  
+- ![alt text](../assets/img/2025-02-23/php-index-web.png)  
 
 
 ## 🛠 **5. Spring Boot + Apache 연동 (Reverse Proxy)**
@@ -152,7 +152,7 @@ Spring Boot 애플리케이션을 Apache를 통해 배포하려면 **Reverse Pro
    LoadModule proxy_module modules/mod_proxy.so
    LoadModule proxy_http_module modules/mod_proxy_http.so
    ```  
-   ![alt text](../assets/img/2025-02-23/proxy-setting-1-apache-httpd.png)  
+- ![alt text](../assets/img/2025-02-23/proxy-setting-1-apache-httpd.png)  
 
 3. 다음 설정 추가 (Spring Boot가 8080에서 실행된다고 가정):  
    ```conf
@@ -162,7 +162,7 @@ Spring Boot 애플리케이션을 Apache를 통해 배포하려면 **Reverse Pro
        ProxyPassReverse / http://localhost:8080/
    </VirtualHost>
    ```  
-   ![alt text](../assets/img/2025-02-23/proxy-setting-2-httpd-virtualhost.png)  
+- ![alt text](../assets/img/2025-02-23/proxy-setting-2-httpd-virtualhost.png)  
 
 4. Apache 재시작:  
    ```bash
@@ -170,7 +170,7 @@ Spring Boot 애플리케이션을 Apache를 통해 배포하려면 **Reverse Pro
    ```  
 
 5. `http://localhost/`로 접속하면 Spring Boot 애플리케이션이 표시됩니다.  
-![alt text](../assets/img/2025-02-23/springboot-web.png)  
+- ![alt text](../assets/img/2025-02-23/springboot-web.png)  
 
 ---
 
