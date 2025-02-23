@@ -1,10 +1,10 @@
 ---
 title: "[Github] You unlocked new Achievements with private contributions!"
-description: "깃허브 뱃지"
+description: "깃허브 배지"
 author: "youneedpython"
 date: "2025-02-19 03:06:00 +0900" 
 categories: [Tech, Github, Badge]
-tags: [Git, GitHub, Badge, 깃허브, 뱃지, 깃]
+tags: [Git, GitHub, Badge, 깃허브, 배지, 깃]
 pin: true
 math: true
 mermaid: true
@@ -15,12 +15,12 @@ mermaid: true
 ![alt text](../assets/img/2025-02-19/notification.png)
 
 > You unlocked new Achievements with private contributions! Show them off by including private contributions in your Profile in settings.  
-> 비공개 기여로 새로운 업적에 맞는 배지를 받을 조건이 충족되었다. 프로필 설정에서 비공개 기여를 포함하면, 새로운 업적을 프로필에 표시할 수 있습니다.
+> 비공개 기여로 새로운 업적에 맞는 배지를 받을 조건이 충족되었다. 프로필 설정에서 비공개 기여를 포함하면, 새로운 업적을 프로필에 표시할 수 있다.
 <br/>
 
 - [참고]
-    - [획득할 수 있는 뱃지](https://github.com/Schweinepriester/github-profile-achievements)
-    - [뱃지 숨기기](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile)
+    - [획득할 수 있는 배지](https://github.com/Schweinepriester/github-profile-achievements)
+    - [배지 숨기기](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile)
 
 <br/>
 <br/>
