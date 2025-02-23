@@ -1,6 +1,6 @@
 ---
 title: "[XAMPP 없이] Windows에 Apache + PHP 설치 방법 (feat: Apache+SpringBoot 연동)"
-description: "Windows에서 Apache + PHP 설치 방법"
+description: "Windows에서 Apache + PHP 설정하기! (XAMPP 없이, Spring Boot 연동까지)"
 author: "youneedpython"
 date: "2025-02-23 15:05:05:00 +0900" 
 categories: [개발, Apache, 설치]
@@ -27,7 +27,7 @@ Apache는 공식적으로 Windows용 바이너리를 제공하지 않으므로, 
 2. `httpd-2.4.63-250207-win64-VS17.zip` 파일을 다운로드한 후 **압축 해제**
 3. `C:\Apache24` 폴더를 생성한 후, 압축을 푼 파일을 이 폴더로 이동
 4. `C:\Apache24\bin\httpd.exe` 파일이 Apache 실행 파일입니다.  
-![alt text](../assets/img/2025-02-23/apache-bin-folder.png){: width="512"}
+![alt text](../assets/img/2025-02-23/apache-bin-folder.png){: width="128" }
 
 ---
 
@@ -48,9 +48,9 @@ httpd -k install
 httpd -k start
 ```  
 * 윈도우키 누르고, cmd 입력  
-![alt text](../assets/img/2025-02-23/apache-cmd-run.png)  
+![alt text](../assets/img/2025-02-23/apache-cmd-run.png){: width="128" }    
 * 명령어 차례로 입력  
-![alt text](../assets/img/2025-02-23/apache-install.png)  
+![alt text](../assets/img/2025-02-23/apache-install.png){: width="128" }    
 
 
 👉 실행이 성공하면 `http://localhost/` 접속 시 **Apache 기본 페이지**가 보여야 합니다.  
@@ -73,7 +73,7 @@ httpd -k uninstall
 1. `C:\Apache24\conf\httpd.conf` 파일을 열기  
 ![alt text](../assets/img/2025-02-23/apache-conf-httpd.png)  
 
-2. `Listen 80`을 찾고, `Listen 8081` (또는 원하는 포트)로 변경  
+2. `Listen 80`을 찾고, `Listen 8081` (또는 원하는 포트)로 변경<br/>  
 ![alt text](../assets/img/2025-02-23/apache-httpd-setting-listen.png)
 
 3. `#ServerName www.example.com:80`이 주석처리 되어 있음  
