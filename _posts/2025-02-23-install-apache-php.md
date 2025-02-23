@@ -1,10 +1,10 @@
 ---
-title: "Windows에서 Apache 단독 설치 방법 (XAMPP 없이)"
-description: "Windows에서 Apache 단독 설치 방법"
+title: "[XAMPP 없이] Windows에 Apache + PHP 설치 방법 (feat: Apache+SpringBoot 연동)"
+description: "Windows에서 Apache + PHP 설치 방법"
 author: "youneedpython"
 date: "2025-02-23 15:05:05:00 +0900" 
 categories: [개발, Apache, 설치]
-tags: [Apache, 아파치, 설치]
+tags: [Apache, 아파치, PHP, 설치, Apache와 SpringBoot 연동, Spring Boot]
 pin: true
 math: true
 mermaid: true
@@ -12,10 +12,6 @@ mermaid: true
 
 <br/>
 
-
-
-
-# Windows에서 Apache 단독 설치 방법 (XAMPP 없이)
 
 
 ## 🛠 **1. Apache 다운로드 및 설치**
@@ -30,7 +26,7 @@ Apache는 공식적으로 Windows용 바이너리를 제공하지 않으므로, 
 1. 위 사이트에서 **"Apache 2.4 VCXX"** (VCXX는 최신 Visual Studio 버전) 버전을 다운로드.
 2. `httpd-2.4.63-250207-win64-VS17.zip` 파일을 다운로드한 후 **압축 해제**
 3. `C:\Apache24` 폴더를 생성한 후, 압축을 푼 파일을 이 폴더로 이동
-4. `C:\Apache24\bin\httpd.exe` 파일이 Apache 실행 파일입니다.
+4. `C:\Apache24\bin\httpd.exe` 파일이 Apache 실행 파일입니다.  
 ![alt text](../assets/img/2025-02-23/apache-bin-folder.png){: width="512"}
 
 ---
@@ -46,16 +42,18 @@ Apache를 쉽게 실행하려면 환경 변수를 설정하는 것이 좋습니�
 5. **확인**을 눌러 저장
 
 ### ✅ **Apache 실행 방법**
-환경 변수 설정 후 **명령 프롬프트(CMD)를 관리자 권한으로 실행**하고 아래 명령어를 입력:
+👉 환경 변수 설정 후 **명령 프롬프트(CMD)를 관리자 권한으로 실행**하고 아래 명령어를 입력:
 ```bash
 httpd -k install
 httpd -k start
-```
-![alt text](../assets/img/2025-02-23/apache-cmd-run.png)
-![alt text](../assets/img/2025-02-23/apache-install.png)
+```  
+* 윈도우키 누르고, cmd 입력  
+![alt text](../assets/img/2025-02-23/apache-cmd-run.png)  
+* 명령어 차례로 입력  
+![alt text](../assets/img/2025-02-23/apache-install.png)  
 
 
-👉 실행이 성공하면 `http://localhost/` 접속 시 **Apache 기본 페이지**가 보여야 합니다.
+👉 실행이 성공하면 `http://localhost/` 접속 시 **Apache 기본 페이지**가 보여야 합니다.  
 ![alt text](../assets/img/2025-02-23/apache-web.png)
 
 👉 중지하려면:
@@ -72,23 +70,23 @@ httpd -k uninstall
 ## 🛠 **3. Apache 포트 변경 (필요 시)**
 기본적으로 **Apache는 80번 포트**를 사용하지만, Spring Boot가 8080을 쓰므로 필요하면 포트를 변경할 수 있습니다.
 
-1. `C:\Apache24\conf\httpd.conf` 파일을 열기
-![alt text](../assets/img/2025-02-23/apache-conf-httpd.png)
+1. `C:\Apache24\conf\httpd.conf` 파일을 열기  
+![alt text](../assets/img/2025-02-23/apache-conf-httpd.png)  
 
-2. `Listen 80`을 찾고, `Listen 8081` (또는 원하는 포트)로 변경
+2. `Listen 80`을 찾고, `Listen 8081` (또는 원하는 포트)로 변경  
 ![alt text](../assets/img/2025-02-23/apache-httpd-setting-listen.png)
 
-3. `#ServerName www.example.com:80`이 주석처리 되어 있음
-`ServerName localhost:8081`으로 변경 (원하는 DNS, IP로 변경)
+3. `#ServerName www.example.com:80`이 주석처리 되어 있음  
+`ServerName localhost:8081`으로 변경 (원하는 DNS, IP로 변경)  
 ![alt text](../assets/img/2025-02-23/apache-httpd-setting-servername.png)
 
 4. Apache 재시작:
    ```bash
    httpd -k restart
-   ```
+   ```  
    ![alt text](../assets/img/2025-02-23/apache-cmd-restart.png)
 
-5. `http://localhost:8081/`로 접속하여 확인.
+5. `http://localhost:8081/`로 접속하여 확인  
 ![alt text](../assets/img/2025-02-23/apache-web-after-change-port.png)
 
 
@@ -99,21 +97,24 @@ Apache만 설치하면 PHP가 실행되지 않으므로, PHP도 추가해야 합
 📌 **PHP 공식 다운로드 사이트:**  
 👉 [https://windows.php.net/download/](https://windows.php.net/download/)
 
-### ✅ **설치 방법**
-1. **Thread Safe (TS) 버전**의 `zip` 파일 다운로드
+### ✅ **설치 방법**  
+1. **Thread Safe (TS) 버전**의 `zip` 파일 다운로드  
 ![alt text](../assets/img/2025-02-23/php-download.png)
 
-2. 압축 해제 후 `C:\php` 폴더에 이동
+2. 압축 해제 후 `C:\php` 폴더에 이동  
 ![alt text](../assets/img/2025-02-23/php-folder-unzip.png)
 
-3. `C:\php\php.ini-development` 파일을 `php.ini`로 이름 변경
+3. `C:\php\php.ini-development` 파일을 `php.ini`로 이름 변경  
+* 파일 이름 변경 전  
 ![alt text](../assets/img/2025-02-23/php-ini-before-change-name.png)
+
+* 파일 이름 변경 후  
 ![alt text](../assets/img/2025-02-23/php-ini-after-change-name.png)
 
 4. `C:\php` 폴더를 환경 변수에 추가
 
 ### ✅ **Apache와 PHP 연동**
-1. `C:\Apache24\conf\httpd.conf` 파일을 열기
+1. `C:\Apache24\conf\httpd.conf` 파일을 열기  
 ![alt text](../assets/img/2025-02-23/apache-httpd-setting-php.png)
 
 2. 아래 내용을 추가:
@@ -121,7 +122,8 @@ Apache만 설치하면 PHP가 실행되지 않으므로, PHP도 추가해야 합
    LoadModule php_module "C:/php/php8apache2_4.dll"
    AddType application/x-httpd-php .php
    PHPIniDir "C:/php"
-   ```
+   ```  
+
    ![alt text](../assets/img/2025-02-23/apache-httpd-setting-module.png)
 
 3. Apache 재시작:
@@ -133,10 +135,11 @@ Apache만 설치하면 PHP가 실행되지 않으므로, PHP도 추가해야 합
    <?php
    phpinfo();
    ?>
-   ```
+   ```  
+
    ![alt text](../assets/img/2025-02-23/php-index-file.png)
 
-5. 브라우저에서 `http://localhost:8081/index.php` 접속하여 PHP 정보 페이지가 나오면 성공!
+5. 브라우저에서 `http://localhost:8081/index.php` 접속하여 PHP 정보 페이지가 나오면 성공!  
 ![alt text](../assets/img/2025-02-23/php-index-web.png)
 
 ---
@@ -168,7 +171,7 @@ Spring Boot 애플리케이션을 Apache를 통해 배포하려면 **Reverse Pro
    httpd -k restart
    ```
 
-5. `http://localhost/`로 접속하면 Spring Boot 애플리케이션이 표시됩니다.
+5. `http://localhost/`로 접속하면 Spring Boot 애플리케이션이 표시됩니다.  
 ![alt text](../assets/img/2025-02-23/springboot-web.png)
 
 ---
