@@ -12,6 +12,7 @@ mermaid: true
 
 <br/>
 
+# [XAMPP 없이] Windows에 Apache + PHP 설치하자!
 
 
 ## 🛠 **1. Apache 다운로드 및 설치**
@@ -169,12 +170,15 @@ Spring Boot 애플리케이션을 Apache를 통해 배포하려면 **Reverse Pro
    httpd -k restart
    ```  
 
-5. `http://localhost/`로 접속하면 Spring Boot 애플리케이션이 표시됩니다.  
-- ![alt text](../assets/img/2025-02-23/springboot-web.png)  
+5. `http://localhost/`로 접속하면 Spring Boot 애플리케이션이 표시됩니다. 
+- http://localhost/  
+   * ![alt text](../assets/img/2025-02-23/apache-proxy-setting.png)
+- http://localhost:8080/     
+   * ![alt text](../assets/img/2025-02-23/springboot-web.png)  
 
----
+<br/><br/>
 
-## 🎯 **정리: 설치 순서**
+## **정리: 설치 순서**
 1. Apache 다운로드 및 설치 (Apache Lounge)
 2. Apache 환경 변수 설정 및 실행
 3. 필요 시 Apache 포트 변경 (`httpd.conf` 수정)

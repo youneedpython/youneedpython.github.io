@@ -14,6 +14,9 @@ mermaid: true
 
 ![Utterances Comment](/assets/img/2025-02-15/utterances.png)
 
+# GitHub Blog에 댓글 기능 쉽게 구현하기
+- Utterances 댓글 위젯 연동
+
 GitHub Pages를 사용하여 블로그를 운영하는 경우, 별도의 댓글 기능능을 추가하는 것이 고민될 수 있습니다. 일반적인 블로그 플랫폼(예: WordPress, Tistory)과 달리 GitHub Pages는 기본적으로 댓글 기능을 제공하지 않기 때문입니다.
 
 이 글에서는 **[Utterances](https://utteranc.es/){: target="_blank" }**라는 오픈소스 댓글 위젯을 블로그에 연동하는 방법을 알아보겠습니다.

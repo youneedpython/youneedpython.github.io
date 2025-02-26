@@ -17,6 +17,8 @@ mermaid: true
 
 <br><br>
 
+# 아주 쉽게 Fork 연결 끊기!!!
+
 GitHub에서 저장소를 포크(Fork)하면 원본 저장소(upstream)와 연결된 상태가 됩니다.  
 그러나 특정한 이유로 이 관계를 끊고 **`독립적인 저장소`**로 만들고 싶다면,  
 GitHub의 **"Leave fork network"** 기능을 사용하면 됩니다.  

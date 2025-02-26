@@ -12,6 +12,8 @@ mermaid: true
 
 <br/>
 
+# [Spring Boot] `PageImpl` 직렬화 관련 경고 발생 원인 및 해결
+
 ## 🚨 경고 메시지
 
 Spring Boot에서 API를 요청했을 때 다음과 같은 경고가 발생할 수 있다:

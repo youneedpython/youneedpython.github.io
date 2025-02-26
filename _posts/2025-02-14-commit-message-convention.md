@@ -17,7 +17,7 @@ mermaid: true
 
 <br><br>
 
-# Git Commit Convention
+# Git Commit Convention (깃 커밋 컨벤션)
 - 깔끔한 커밋 메시지를 위한 가이드
 - 참고: [commitlint config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional#commitlintconfig-conventional){: target="_blank" }을 한글 번역 및 정리한 글입니다.  
 <br>

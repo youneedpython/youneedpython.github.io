@@ -25,7 +25,7 @@ mermaid: true
 <br/>
 <br/>
 
-## GitHub Profile Achievements
+# GitHub Profile Achievements
 
 <br/>
 
