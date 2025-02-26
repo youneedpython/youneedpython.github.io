@@ -38,7 +38,7 @@ google_analytics:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
+  - jekyll-feed  ## RSS 피드
 
 
 # robots:
