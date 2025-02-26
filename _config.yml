@@ -36,13 +36,14 @@ google_analytics:
   pv:
     cache: true
 
-robots:
-  - "User-agent: *"
-  - "Allow: /"
-  - "Sitemap: https://yourblog.github.io/sitemap.xml"
-
 plugins:
   - jekyll-sitemap
+
+# robots:
+#   - "User-agent: *"
+#   - "Allow: /"
+#   - "Sitemap: https://yourblog.github.io/sitemap.xml"
+
 
 
 # Fill in the protocol & hostname for your site.
