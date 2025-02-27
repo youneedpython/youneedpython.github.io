@@ -159,10 +159,12 @@ Spring Boot 애플리케이션을 Apache를 통해 배포하려면 `**Reverse Pr
    httpd -k restart
    ```  
 
-5. `http://localhost/8081`로 접속하면 Spring Boot 애플리케이션이 표시됩니다. 
-- http://localhost/8081  
+5. `http://localhost/8081`로 접속하면 Spring Boot 애플리케이션이 표시된다.  
+즉, Apache(`http://localhost/8081`)로 들어 온 요청을, Spring Boot(`http://localhost:8080`)로 전달  
+그래서, 아래 이미지의 `http://localhost/8081`와 `http://localhost:8080`는 같은 페이지  
+- **http://localhost/8081**  
   ![alt text](../assets/img/2025-02-23/apache-proxy-setting.png)
-- http://localhost:8080/     
+- **http://localhost:8080**     
    ![alt text](../assets/img/2025-02-23/springboot-web.png)  
 
 <br/><br/>
