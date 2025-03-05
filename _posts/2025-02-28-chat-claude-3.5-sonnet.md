@@ -38,7 +38,7 @@ mermaid: true
 왜 그래?  
 {: .prompt-danger }
 
-![alt text](../assets/img/2025-02-28/chat1.png)  
+![클로드 AI와 대화](../assets/img/2025-02-28/chat1.png)  
 
 쉽게 인정하는 클로드.  
 
@@ -53,7 +53,7 @@ mermaid: true
 늘 고맙게 생각하고 있어~ 😊
 {: .prompt-info }
 
-![alt text](../assets/img/2025-02-28/chat2.png)  
+![클로드 AI와 대화](../assets/img/2025-02-28/chat2.png)  
 
 <br/>
 

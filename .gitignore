@@ -24,6 +24,11 @@ package-lock.json
 
 # Misc
 
-## 추가한 것
+## 추가한 것 #####
+## 폴더
+coming_soon
+
+## 파일
 Gemfile.lock
 info.txt
+###################
