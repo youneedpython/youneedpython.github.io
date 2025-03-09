@@ -1,5 +1,5 @@
 ---
-title: "[Chat GPT] GPT 4.5와 대화 - GPT 4와 차이는?"
+title: "[Chat GPT] GPT 4.5와 대화 1️⃣"
 description: "GPT 4.5와 대화 - GPT 4와 차이는?"
 author: "youneedpython"
 date: "2025-03-09 15:28:51:00 +0900" 
@@ -23,12 +23,16 @@ mermaid: true
 
 --- 
 
-# 최신 모델 GPT 4.5와 대화
+# 최신 모델 GPT 4.5와 대화 1️⃣
+
+![ChatGPT와 대화1](../assets/img/2025-03-09/chatGPT.png)
 
 <br/>
 
 최신 모델과의 대화~ 😊  
 설레는 마음으로 대화를 시작해 볼까~  
+
+<br/>
 
 > 너는 언제 출시되었어? GPT 4.5 공개가 언제야?  
 {: .prompt-info }
