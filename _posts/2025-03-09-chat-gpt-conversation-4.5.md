@@ -34,7 +34,9 @@ mermaid: true
 
 <br/>
 
-> 너는 언제 출시되었어? GPT 4.5 공개가 언제야?  
+## 너는 언제 출시되었어? GPT 4.5 공개가 언제야?
+{: .white-text }
+> **너는 언제 출시되었어? GPT 4.5 공개가 언제야?**  
 {: .prompt-info }
 
 ![ChatGPT와 대화1](../assets/img/2025-03-09/chatGPT-01.png){: .w-80 }  
@@ -48,7 +50,9 @@ mermaid: true
 아~ 전체 사용자에게 공개된 건 아니구나.  
 이전 모델인 GPT-4와 무슨 차이가 있는 거지? 
 
-> 이전 모델과의 차이가 뭐야?
+## 이전 모델과의 차이가 뭐야?
+{: .white-text }
+> **이전 모델과의 차이가 뭐야?**
 {: .prompt-info }
 
 ![ChatGPT와 대화2](../assets/img/2025-03-09/chatGPT-02-1.png){: .w-80 }  
@@ -66,7 +70,9 @@ mermaid: true
 사용자와의 실시간 반응에 중점을 두었군! 대화 중점이라...  
 이전 GPT-4 모델의 구조를 어떻게 개선한 거지? 🤔❓    
 
-> 이전 GPT-4 모델의 구조를 개선한 건가? 효율적인 연산 처리는 어떠한 부분을 이야기하는 거지?  
+## 이전 GPT-4 모델의 구조를 개선한 건가?
+{: .white-text }
+> **이전 GPT-4 모델의 구조를 개선한 건가? 효율적인 연산 처리는 어떠한 부분을 이야기하는 거지?**  
 {: .prompt-info }
 
 ![ChatGPT와 대화3](../assets/img/2025-03-09/chatGPT-03-1.png){: .w-80 }  
@@ -81,9 +87,11 @@ mermaid: true
 🌿<br/>
 🌿<br/>
 
-하드웨어보다 소프트웨어로 성능 향상한 건가?    
+하드웨어보다 소프트웨어로 성능 향상한 건가? 🤔❓    
 
-> GPU Kernel은 S/W로 구현한 건가?  
+## GPU Kernel은 S/W로 구현한 건가?
+{: .white-text }
+> **GPU Kernel은 S/W로 구현한 건가?**  
 {: .prompt-info }
  
 ![ChatGPT와 대화4](../assets/img/2025-03-09/chatGPT-04-1.png){: .w-80 }  
@@ -99,7 +107,9 @@ mermaid: true
 
 캐싱 차이가 어떻게 나지?    
 
-> 이전 GPT-4는 캐싱 사용이 어떠했지?  
+## 이전 GPT-4는 캐싱 사용이 어떠했지?
+{: .white-text }
+> **이전 GPT-4는 캐싱 사용이 어떠했지?**  
 {: .prompt-info }
 
 ![ChatGPT와 대화5](../assets/img/2025-03-09/chatGPT-05-1.png){: .w-80 }  
@@ -116,7 +126,9 @@ mermaid: true
 
 학습 데이터에도 차이가 있나? 🤔❓  
 
-> GPT-4와 동일한 데이터로 학습했나? 학습 차이가 있어?  
+## GPT-4와 동일한 데이터로 학습했나? 학습 차이가 있어?
+{: .white-text }
+> **GPT-4와 동일한 데이터로 학습했나? 학습 차이가 있어?**  
 {: .prompt-info }
 
 ![ChatGPT와 대화6](../assets/img/2025-03-09/chatGPT-06-1.png){: .w-80 }   
