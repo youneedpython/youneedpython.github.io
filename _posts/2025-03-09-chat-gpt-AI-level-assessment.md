@@ -12,8 +12,7 @@ mermaid: true
 
 <br/><br/>
 
-[**`[Chat GPT] GPT 4.5와 대화 2️⃣`**](https://youneedpython.github.io/posts/chat-gpt-conversation-4.5-02/#현재-ai의-발전을-평가한다면-어느-정도의-수준이라고-봐) 에서 일부 발췌한 글입니다.    
-[**`[Chat GPT] GPT 4.5와 대화 2️⃣`**](/posts/chat-gpt-conversation-4.5-02/#현재-ai의-발전을-평가한다면-어느-정도의-수준이라고-봐) 에서 일부 발췌한 글입니다.    
+[**`[Chat GPT] GPT 4.5와 대화 2️⃣`**](https://youneedpython.github.io/posts/chat-gpt-conversation-4.5-02/#현재-ai의-발전을-평가한다면-어느-정도의-수준이라고-봐) 에서 발췌한 글입니다.    
 
 <br/>
 
