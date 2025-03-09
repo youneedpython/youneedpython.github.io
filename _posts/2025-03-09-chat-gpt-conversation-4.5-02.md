@@ -123,7 +123,6 @@ mermaid: true
 ![ChatGPT와 대화12](../assets/img/2025-03-09/chatGPT-12-2.png){: .w-80 }  
 ![ChatGPT와 대화12](../assets/img/2025-03-09/chatGPT-12-3.png){: .w-80 }  
 ![ChatGPT와 대화12](../assets/img/2025-03-09/chatGPT-12-4.png){: .w-80 }  
-![ChatGPT와 대화12](../assets/img/2025-03-09/chatGPT-12-5.png){: .w-80 }  
 
 🌿<br/>
 🌿<br/>
