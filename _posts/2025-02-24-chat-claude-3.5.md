@@ -28,6 +28,8 @@ mermaid: true
 
 <br/>
 
+## 질문할 때, 단축키 ctrl + L과 ctrl + shift + L의 차이가 뭐야?
+{: .white-text }
 > 질문할 때, 단축키 **`ctrl + L`**과 **`ctrl + shift + L`**의 차이가 뭐야?  
 {: .prompt-info }
 
@@ -37,6 +39,8 @@ mermaid: true
 
 <br/><br/>
 
+## 내가 ctrl + L로 질문을 했는데 이전 맥락과 이어지는 내용이라면 넌 몰라?
+{: .white-text }
 > 내가 **`ctrl + L`**로 질문을 했는데 이전 맥락과 이어지는 내용이라면 넌 몰라?  
 그럼 **`다른 답변`**을 할 수도 있겠네?
 {: .prompt-info }
@@ -48,6 +52,8 @@ mermaid: true
 
 <br/><br/>
 
+## ctrl + L을 사용하여 질문해도, 이전과 같은 세션 아니야?
+{: .white-text }
 > ctrl + L을 사용하여 질문해도, 이전과 같은 세션 아니야?   
 {: .prompt-danger }
 
@@ -57,6 +63,8 @@ mermaid: true
 
 <br/><br/>
 
+## 세션이 같다면, 이전 대화 맥락을 알고 있다라고 이해하면 되나?
+{: .white-text }
 > **`ctrl + L로 질문해도 이전 맥락을 알고 있다`**는 이야기네?  
 > **`같은 세션`**이니까!  
 > 
