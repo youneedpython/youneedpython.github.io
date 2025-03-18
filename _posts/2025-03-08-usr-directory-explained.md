@@ -4,7 +4,7 @@ description: "Linux 리눅스 `/usr` 디렉토리"
 author: "youneedpython"
 date: "2025-03-08 21:00:22:00 +0900" 
 categories: [OS, Linux]
-tags: [OS, Linux, 리눅스, usr, 디렉토리, 폴더더]
+tags: [OS, Linux, 리눅스, usr, 디렉토리, 폴더]
 pin: true
 math: true
 mermaid: true
