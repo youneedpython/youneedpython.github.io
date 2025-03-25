@@ -40,17 +40,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed  ## RSS 피드
 
-
 # robots:
 #   - "User-agent: *"
 #   - "Allow: /"
 #   - "Sitemap: https://yourblog.github.io/sitemap.xml"
 
-
-
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://github.com/youneedpython"
+url: "https://youneedpython.github.io"
+baseurl: ""
 
 github:
   username: youneedpython # change to your GitHub username
