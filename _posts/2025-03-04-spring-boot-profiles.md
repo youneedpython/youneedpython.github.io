@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-04 21:22:07:00 +0900" 
 categories: [개발, SpringBoot, profile]
 tags: [개발, SpringBoot, profile, yml, 설정, 야믈 파일]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

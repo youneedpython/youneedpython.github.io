@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-05 20:56:13:00 +0900" 
 categories: [개발, CI/CD]
 tags: [CI/CD, 배포, 배포 전략략]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

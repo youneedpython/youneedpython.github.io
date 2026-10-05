@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-13 18:47:00 +0900" 
 categories: [Github blog, markdown]
 tags: [Jekyll, Chirpy, GitHub blog, GitHub Pages, markdown, 마크다운, 블로그 글쓰기]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

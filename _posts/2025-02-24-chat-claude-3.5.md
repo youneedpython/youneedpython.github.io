@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-23 22:21:15:00 +0900" 
 categories: [AI, chat, claude]
 tags: [AI, claude, 인공지능, 대화, 클로드, 코드, ctrl+L, ctrl+Shift+L]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

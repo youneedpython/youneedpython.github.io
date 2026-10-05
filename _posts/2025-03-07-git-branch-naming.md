@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-07 20:45:11:00 +0900" 
 categories: [Tech, Git, branch]
 tags: [Git, branch, name, naming, 깃, 깃허브, 브랜치 네이밍, 브랜치명]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-09 15:28:51:00 +0900" 
 categories: [AI, chat, ChatGPT, GPT-4.5]
 tags: [AI, chat GPT, 인공지능, 대화, 챗 지피티, GPT 4.5]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-19 03:06:00 +0900" 
 categories: [Tech, Github, Badge]
 tags: [Git, GitHub, Badge, 깃허브, 배지, 깃]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

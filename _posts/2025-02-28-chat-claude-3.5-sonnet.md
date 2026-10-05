@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-28 13:31:45:00 +0900" 
 categories: [AI, chat, claude]
 tags: [AI, claude, 인공지능, 대화, 클로드, 코드]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

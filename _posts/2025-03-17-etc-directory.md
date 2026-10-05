@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-17 19:18:54:00 +0900" 
 categories: [OS, Linux]
 tags: [OS, Linux, 리눅스, etc, 디렉토리, 폴더]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

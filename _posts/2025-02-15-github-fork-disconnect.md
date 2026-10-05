@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-15 07:21:00 +0900" 
 categories: [Tech, Git, leave fork]
 tags: [Git, GitHub, leave fork, 포크 연결 끊기, fork repository 연결 끊기]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

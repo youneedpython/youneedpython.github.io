@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-06 00:37:06:00 +0900" 
 categories: [AI, chat, ChatGPT, GPT-4o]
 tags: [AI, chat GPT, 인공지능, 대화, 챗 지피티, 답변, 답변 느림]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

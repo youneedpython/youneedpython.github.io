@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-22 19:02:07:00 +0900" 
 categories: [개발, SpringBoot, 에러]
 tags: [SpringBoot, 스프링 부트, 직렬화, json, PageImpl]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

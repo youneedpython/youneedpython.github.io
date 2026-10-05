@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-17 20:12:41:00 +0900" 
 categories: [OS, cURL]
 tags: [OS, cURL, -v, 옵션, 컬, 요청]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-23 15:05:05:00 +0900" 
 categories: [개발, Apache, 설치]
 tags: [Apache, 아파치, PHP, 설치, Apache와 SpringBoot 연동, Spring Boot]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

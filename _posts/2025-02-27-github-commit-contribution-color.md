@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-27 19:27:12:00 +0900" 
 categories: [Tech, Github, contribution]
 tags: [github, commit, contribution, 깃허브, 커밋, 잔디 심자, 잔디색]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

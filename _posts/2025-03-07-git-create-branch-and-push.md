@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-03-07 21:15:02:00 +0900" 
 categories: [Tech, Git, branch]
 tags: [Git, branch, create, 깃, 깃허브, 브랜치 생성, 브랜치 추가, 브랜치 만들기]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---

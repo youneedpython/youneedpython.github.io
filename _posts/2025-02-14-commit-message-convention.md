@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-14 19:15:00 +0900" 
 categories: [Tech, Git, commit convention]
 tags: [Git, GitHub, commit convention, 커밋, 커밋 문법, 커밋 컨벤션, 커밋 규칙]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

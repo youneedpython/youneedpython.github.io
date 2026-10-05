@@ -5,7 +5,7 @@ author: "youneedpython"
 date: "2025-02-15 12:15:00 +0900" 
 categories: [Github blog, comments widget]
 tags: [Git, GitHub, comments widget, 깃 블로그, 댓글 기능 추가, Utterances widget, Utterances, 댓글 연동]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---
