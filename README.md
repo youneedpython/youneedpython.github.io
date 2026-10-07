@@ -61,7 +61,7 @@ Markdown으로 쓴 글을 이 저장소에 Push하면 GitHub Actions가 사이�
 | 단계 | 하는 일 |
 |---|---|
 | 1. 원고 작성 | `_posts/`에 `YYYY-MM-DD-제목.md` 파일을 만들고, 이미지는 `assets/img/날짜/`에 둡니다 |
-| 2. Push | `main`에 Push합니다. `README.md`, `LICENSE`, `.gitignore`만 바뀐 Push는 배포하지 않습니다 |
+| 2. Push | `master`에 Push합니다. `README.md`, `LICENSE`, `.gitignore`만 바뀐 Push는 배포하지 않습니다 |
 | 3. Build | GitHub Actions가 Jekyll로 사이트를 만듭니다 |
 | 4. Link 검사 | html-proofer가 사이트 안의 Link와 이미지 경로를 검사합니다. 깨진 곳이 있으면 배포하지 않습니다 |
 | 5. 배포 | 검사를 통과한 사이트를 GitHub Pages에 올립니다 |
