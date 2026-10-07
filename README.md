@@ -49,7 +49,7 @@ Markdown으로 쓴 글을 이 저장소에 Push하면 GitHub Actions가 사이�
 
 ### 3. 검색 노출과 방문 통계
 
-- Sitemap과 RSS Feed를 자동으로 만들고, `robots.txt`로 검색 엔진의 수집을 허용합니다.
+- Sitemap과 RSS Feed(최근 글 5편)를 자동으로 만들고, `robots.txt`로 검색 엔진의 수집을 허용합니다.
 - Google Search Console 인증과 Google Analytics를 설정했습니다.
 
 ---
@@ -73,7 +73,8 @@ Markdown으로 쓴 글을 이 저장소에 Push하면 GitHub Actions가 사이�
 | 영역 | 기술 |
 |---|---|
 | 사이트 생성 | Jekyll, Chirpy Theme 7.2.4, Ruby 3.3 |
-| Plugin | jekyll-sitemap, jekyll-feed |
+| Plugin | jekyll-sitemap |
+| RSS Feed | Chirpy Theme의 Feed Template (`feed.xml`), 최근 글 5편 |
 | 댓글 | Utterances |
 | 배포 | GitHub Actions, GitHub Pages |
 | 검사 | html-proofer |
